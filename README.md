@@ -28,4 +28,4 @@ $ SUCCESS
 ```
 $ http://localhost:5555
 ```
-![Flower Dashboard](https://github.com/namansharma18899/flask-celery/src/assets/flower.png?raw=true)
+![Flower Dashboard](https://github.com/namansharma18899/flask-celery/blob/main/src/assets/flower.png)
