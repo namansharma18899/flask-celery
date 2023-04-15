@@ -22,7 +22,6 @@ celery = Celery(
     backend="redis://127.0.0.1:6379/0"
 )
 
-
 @app.route("/")
 def hello():
     return "Hello, World!"
@@ -31,5 +30,5 @@ def hello():
 @celery.task
 def divide(x, y):
     import time
-    time.sleep(5)
+    time.sleep(10)
     return x / y

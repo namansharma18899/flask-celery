@@ -20,7 +20,8 @@ $ celery -A app.celery flower --port=5555 #seperate_terminal
 ```
 ## Usage
 * Create new tasks in the flask shell 
-$ from app import divide
+$ cd stc
+$ from src.app import divide
 $ task = divide.delay(1, 2)
 $ print(task.state)
 $ SUCCESS
