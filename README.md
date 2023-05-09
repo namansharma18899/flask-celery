@@ -14,6 +14,7 @@ $ cd flask-celery
 $ virtualenv TestEnv
 $ pip3 install -r requirements.txt
 $ cd src/
+$ export PYTHONPATH=`pwd`
 $ FLASK_APP=app.py flask shell  #seperate_terminal
 $ celery -A app.celery worker --loglevel=info #seperate_terminal
 $ celery -A app.celery flower --port=5555 #seperate_terminal
